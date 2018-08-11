@@ -1,22 +1,3 @@
-// let inputFiles = document.getElementsByClassName('image-file')
-// let reader = new FileReader()
-
-// function showPreview(event) {
-//   let target = event.target
-//   let file = target.files[0]
-//   console.log(target.files[0])
-//   console.log(reader.readAsDataURL(file))
-// }
-
-// function fileLoad(event) {
-//   console.log(reader)
-//   console.log(event)
-//   return reader.result
-// }
-// for (let i = 0; i < inputFiles.length; i++) {
-//   inputFiles[i].addEventListener('change', showPreview, false)
-// }
-// reader.addEventListener('load', fileLoad, false)
 $(function () {
   $('form').on('change', 'input[type="file"]', (event) => {
     let file = event.target.files[0],
