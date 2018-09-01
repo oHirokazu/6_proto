@@ -1,3 +1,5 @@
+console.log('test')
+
 $(function () {
   $('form').on('change', 'input[type="file"]', (event) => {
     let file = event.target.files[0],
